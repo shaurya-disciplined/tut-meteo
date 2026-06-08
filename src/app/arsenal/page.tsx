@@ -35,8 +35,8 @@ export default function ArsenalPage() {
             <GlassCard glow>
               <h2 className="text-2xl font-bold text-accent mb-2">Vibe Link</h2>
               <div className="w-full h-[1px] bg-white/10 mb-6" />
-              <p className="text-white/80 font-light mb-6">
-                [PLACEHOLDER DESCRIPTION FOR VIBE LINK]
+              <p className="text-white/80 font-light mb-6 whitespace-pre-wrap leading-relaxed">
+                My first full AI chatbot. Built it completely from scratch using Next.js 16, TypeScript, Tailwind and Groq API..\n\nDark cyber Batman theme with looping video background, glassmorphic design, electric thunder effects, real-time chat, chat history and full mobile support. Deployed on Vercel.\n\nWent live in under 10 days. Still improving it.
               </p>
               <a href="#" className="inline-block px-6 py-2 rounded-lg bg-accent/20 text-accent font-medium hover:bg-accent/30 transition-colors">
                 [LIVE SITE LINK]
@@ -46,9 +46,18 @@ export default function ArsenalPage() {
 
           <DriftItem delay={1} duration={8} yDrift={[0, 8, 0]}>
             <GlassCard>
-              <h2 className="text-xl font-bold text-white mb-2">Themegadress</h2>
-              <p className="text-white/70 font-light text-sm">
-                [PLACEHOLDER DESCRIPTION FOR THEMEGADRESS]
+              <h2 className="text-xl font-bold text-white mb-2">MEGADRESS</h2>
+              <p className="text-white/70 font-light text-sm whitespace-pre-wrap leading-relaxed">
+                Independently built a small clothing brand from vision to execution.. Created full brand identity, website header, sales creatives, marketing materials and basic website. Learned how products, branding and real execution actually work in practice.
+              </p>
+            </GlassCard>
+          </DriftItem>
+
+          <DriftItem delay={0.5} duration={9} yDrift={[0, -5, 0]}>
+            <GlassCard>
+              <h2 className="text-xl font-bold text-white mb-2">Other Experiments</h2>
+              <p className="text-white/70 font-light text-sm whitespace-pre-wrap leading-relaxed">
+                Multiple website design and digital marketing experiments. Learned how structure, visuals and messaging actually affect people.
               </p>
             </GlassCard>
           </DriftItem>
@@ -59,9 +68,9 @@ export default function ArsenalPage() {
           <DriftItem delay={0.5} yDrift={[0, 12, 0]} rotateDrift={[-1, 0, -1]}>
             <GlassCard>
               <h2 className="text-xl font-bold text-white mb-2">The Vessel</h2>
-              <ul className="text-white/70 font-light space-y-2 text-sm">
-                <li>• [6&apos;2&quot; FRAME PLACEHOLDER]</li>
-                <li>• [OMAD PROTOCOL PLACEHOLDER]</li>
+              <ul className="text-white/70 font-light space-y-3 text-sm leading-relaxed">
+                <li>• Height 6&apos;2&quot;.. currently building a strong frame through consistent training and OMAD protocol.</li>
+                <li>• High discipline around food, sleep and daily systems.</li>
               </ul>
             </GlassCard>
           </DriftItem>
@@ -69,8 +78,8 @@ export default function ArsenalPage() {
           <DriftItem delay={1.5} duration={7} yDrift={[0, -8, 0]}>
             <GlassCard>
               <h2 className="text-xl font-bold text-white mb-2">Systems & Discipline</h2>
-              <p className="text-white/70 font-light text-sm">
-                [PLACEHOLDER FOR DISCIPLINE SYSTEMS]
+              <p className="text-white/70 font-light text-sm whitespace-pre-wrap leading-relaxed">
+                I don’t rely on motivation. I rely on systems that keep me sharp even on bad days..\n\nProblem solving through JEE, building through real projects, and long-term thinking. These are my real weapons.
               </p>
             </GlassCard>
           </DriftItem>

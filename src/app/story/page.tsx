@@ -6,10 +6,26 @@ import { DriftItem } from "@/components/floating/DriftItem";
 import { GlassCard } from "@/components/floating/GlassCard";
 
 const CHAPTERS = [
-  { id: "shadows", title: "Early Shadows", content: "[YOUR PERSONAL TEXT HERE]" },
-  { id: "forge", title: "The Forge", content: "[YOUR PERSONAL TEXT HERE]" },
-  { id: "awakening", title: "The Awakening", content: "[YOUR PERSONAL TEXT HERE]" },
-  { id: "rises", title: "The Signal Rises", content: "[YOUR PERSONAL TEXT HERE]" },
+  { 
+    id: "shadows", 
+    title: "Early Shadows", 
+    content: "Early days were spent at Jnana Prabodhini Prashala.. from 2019 to 2025.\n\nThat place shaped a lot. Learned how to think, how to stay independent, and how to move through things without constant hand holding.\n\nThose years built the base. Quiet discipline. The kind that stays even when no one is watching." 
+  },
+  { 
+    id: "forge", 
+    title: "The Forge", 
+    content: "Then came the real forge. JEE 2027 prep. Long hours. Backlogs. Coaching.\n\nThe constant pressure to perform and the even bigger pressure to not lose myself in it. This phase is where I started building real systems for myself.\n\nNot just studying.. but learning how to stay sharp, how to recover, how to keep going when motivation dies. This is where the real grindd started." 
+  },
+  { 
+    id: "awakening", 
+    title: "The Awakening", 
+    content: "Something shifted when I started building. First the clothing brand project.. MEGADRESS. I handled everything myself. Brand identity, creatives, website, marketing. Learned how an idea actually moves from head to execution.\n\nThen came Vibe Link.. my first real AI project. Built the whole thing from zero with no prior coding experience. Next.js, TypeScript, Tailwind, Groq API. Dark cyber Batman UI. Glassmorphic bubbles. Thunder effects. Went from idea to live app in under 10 days.\n\nFriends started using it through Instagram stories. That project changed something in me. I saw that I could actually ship." 
+  },
+  { 
+    id: "rises", 
+    title: "The Signal Rises", 
+    content: "Right now I’m in the phase where the signal is getting clearer. JEE is still the main mission but I’m not waiting anymore. I’m building in public. Documenting the journey. Shipping small projects. Strengthening discipline every single day.\n\nOMAD. Training. Systems. Reading.\n\nThe goal is long-term leverage.. not just clearing an exam. I want to become the kind of person who can build empires later. This is the transmission phase. The signal is getting stronger." 
+  },
 ];
 
 export default function StoryPage() {
@@ -52,7 +68,7 @@ export default function StoryPage() {
                       <span className="text-accent text-sm tracking-widest uppercase">0{i + 1}</span>
                       {chapter.title}
                     </h2>
-                    <p className="text-white/70 leading-relaxed font-light">
+                    <p className="text-white/70 leading-relaxed font-light whitespace-pre-wrap">
                       {chapter.content}
                     </p>
                   </GlassCard>

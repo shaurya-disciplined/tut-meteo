@@ -139,7 +139,7 @@ export function Hero() {
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white drop-shadow-2xl">
             If you want a <br/>
-            <span className="text-accent drop-shadow-[0_0_20px_rgba(212,179,199,0.5)]">Batman</span>
+            <span className="text-accent drop-shadow-[0_0_20px_rgba(212,179,199,0.5)]">Batman..</span>
           </h1>
         </motion.div>
 
@@ -165,7 +165,7 @@ export function Hero() {
               17 • Pune • Builder
             </p>
             <p className="text-sm lg:text-base text-body/70 font-light mt-1">
-              who loves dark rainy nights and fast cars.
+              who loves dark rainy nights.. and fast cars.
             </p>
           </div>
         </motion.div>
@@ -177,7 +177,7 @@ export function Hero() {
           transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
         >
           <p className="text-base md:text-lg text-body/80 font-light leading-relaxed drop-shadow-lg">
-            Message me if the vibe hits.. or if you just want to talk cars, code and <span className="text-accent/80 font-medium">Meteor energy</span>
+            Message meee if the vibee hits.. or if you just want to talk cars, code and <span className="text-accent/80 font-medium">deepp Meteor energy..</span>
           </p>
         </motion.div>
 
@@ -205,8 +205,8 @@ export function Hero() {
           animate={{ y: [0, -5, 0], rotate: [-2, 1, -2] }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
         >
-          <div className="px-5 py-3 rounded-2xl bg-[#0a0a0f]/60 backdrop-blur-xl border border-white/10 text-white/80 text-sm font-medium shadow-2xl">
-            [HEIGHT: 6&apos;2&quot;] • [BUILD VIBE]
+          <div className="px-5 py-3 rounded-2xl bg-[#0a0a0f]/60 backdrop-blur-xl border border-white/10 text-white/80 text-sm font-medium shadow-2xl tracking-widest">
+            6&apos;2&quot; • QUIET DISCIPLINE
           </div>
         </motion.div>
 
@@ -215,8 +215,8 @@ export function Hero() {
           animate={{ y: [0, 8, 0], rotate: [1, -1, 1] }}
           transition={{ duration: 7.5, repeat: Infinity, ease: "easeInOut", delay: 2.5 }}
         >
-          <div className="px-5 py-3 rounded-2xl bg-accent/10 backdrop-blur-xl border border-accent/20 text-accent text-sm font-medium shadow-[0_0_30px_rgba(212,179,199,0.1)]">
-            CURRENT FOCUS: [YOUR FOCUS HERE]
+          <div className="px-5 py-3 rounded-2xl bg-accent/10 backdrop-blur-xl border border-accent/20 text-accent text-sm font-medium shadow-[0_0_30px_rgba(212,179,199,0.1)] tracking-widest">
+            FOCUS: CRACK JEE 2027.. & BUILD REAL SHIT
           </div>
         </motion.div>
       </div>
@@ -230,7 +230,7 @@ export function Hero() {
             animate={{ y: [0, -4, 0] }}
             transition={{ duration: 4 + i, repeat: Infinity, ease: "easeInOut", delay: i * 0.5 }}
           >
-            [BROADCAST {i}]
+            [TRANSMISSION {i}.. SIGNAL ACTIVE]
           </motion.div>
         ))}
       </div>

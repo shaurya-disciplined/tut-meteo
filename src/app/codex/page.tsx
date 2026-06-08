@@ -5,9 +5,21 @@ import { motion } from "framer-motion";
 import { DriftItem } from "@/components/floating/DriftItem";
 
 const RULES = [
-  { id: "r1", text: "[UNBREAKABLE RULE 1]" },
-  { id: "r2", text: "[UNBREAKABLE RULE 2]" },
-  { id: "r3", text: "[UNBREAKABLE RULE 3]" },
+  { 
+    id: "r1", 
+    text: "BUILD STRONG FUNDAMENTALS FIRST.", 
+    detail: "Discipline, problem solving and long-term leverage matter more than short bursts of motivation." 
+  },
+  { 
+    id: "r2", 
+    text: "I DON'T WAIT FOR PERFECT CONDITIONS. I SHIP ANYWAY.", 
+    detail: "Small projects, real experiments, learning in public." 
+  },
+  { 
+    id: "r3", 
+    text: "THE DUAL MISSION.", 
+    detail: "Crack JEE 2027 with a strong rank while simultaneously building real skills and projects on the side. Both are important. One is not waiting for the other." 
+  },
 ];
 
 export default function CodexPage() {
@@ -36,7 +48,7 @@ export default function CodexPage() {
         >
           <DriftItem duration={8} yDrift={[0, -10, 0]}>
             <p className="text-2xl md:text-4xl font-serif italic text-white/90 leading-relaxed">
-              &quot;[PLACEHOLDER FOR CORE IDENTITY STATEMENT OR MANIFESTO INTRO]&quot;
+              &quot;This is not just about clearing an exam. This is about becoming dangerous with my skills, my discipline and my vision.&quot;
             </p>
           </DriftItem>
         </motion.section>
@@ -55,12 +67,21 @@ export default function CodexPage() {
                 >
                   <button 
                     onClick={() => setHighlightedRule(highlightedRule === rule.id ? null : rule.id)}
-                    className={`text-xl md:text-3xl font-bold transition-colors duration-500 ${
+                    className={`text-xl md:text-3xl font-bold transition-colors duration-500 block w-full text-center ${
                       highlightedRule === rule.id ? "text-accent drop-shadow-[0_0_25px_rgba(250,204,21,0.8)]" : "text-white/70 hover:text-white"
                     }`}
                   >
                     {rule.text}
                   </button>
+                  {highlightedRule === rule.id && (
+                    <motion.p 
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      className="mt-6 text-white/80 font-light text-lg md:text-xl max-w-2xl mx-auto leading-relaxed"
+                    >
+                      {rule.detail}
+                    </motion.p>
+                  )}
                 </motion.div>
               </DriftItem>
             ))}
@@ -77,7 +98,7 @@ export default function CodexPage() {
         >
           <h2 className="text-xl font-mono text-white/50 tracking-widest uppercase mb-8">Long-Term Vision</h2>
           <p className="text-lg md:text-xl text-white/80 font-light leading-relaxed">
-            [PLACEHOLDER FOR LONG TERM VISION. THE SIGNAL ECHOES FROM INDIA.]
+            Long term I want financial independence and the ability to create real impact. I’m playing the long game. Building myself into someone who can actually move things in this world.
           </p>
         </motion.section>
 
